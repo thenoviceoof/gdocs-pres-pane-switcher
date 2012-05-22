@@ -2,9 +2,14 @@
   "name": "GDocs Presentation Preview Switcher",
   "version": "1.0",
   "manifest_version": 2,
+  "permissions": ["tabs"],
   "description": "Switches the visibility of the sidebar",
   "page_action": {
-    "default_title": "Switch Preview Pane"
+    "default_icon": "icon.png",
+    "default_title": "Toggle Preview Pane"
+  },
+  "background": {
+    "scripts": ["background.js"]
   },
   "content_scripts": [
     {
