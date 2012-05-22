@@ -3,7 +3,13 @@
   "version": "1.0",
   "manifest_version": 2,
   "description": "Switches the visibility of the sidebar",
-  "browser_action": {
-    "default_icon": "icon.png"
-  }
+  "page_action": {
+    "default_title": "Switch Preview Pane"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/presentation/*"],
+      "js": ["hide_pane.js"]
+    }
+  ]
 }
