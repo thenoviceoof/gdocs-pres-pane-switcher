@@ -11,7 +11,7 @@ USAGE
 
 First, find the extensions portion of the settings page by either:
  - Wrench -> Settings -> Extensions
- - chrome://settings/extensions
+ - chrome://extensions
 
 Then either:
  - use the packaged extension (not done yet)
