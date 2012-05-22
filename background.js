@@ -1,3 +1,10 @@
+/* "THE BEER-WARE LICENSE" (Revision 42):
+ * <thenoviceoof@gmail.com> wrote this stuff. As long as you retain this
+ * notice you can do whatever you want with this stuff. If we meet some
+ * day, and you think this stuff is worth it, you can buy me a beer in
+ * return.  - Nathan Hwang
+ */
+
 function check(tabId, changeInfo, tab) {
     var url = "https://docs.google.com/presentation/";
     if(tab.url.substring(0, url.length) === url) {
