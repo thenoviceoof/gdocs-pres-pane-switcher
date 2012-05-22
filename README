@@ -1,4 +1,39 @@
 GDocs Presentation Preview Switcher
 ================================================================================
 
-A little presentation
+A little hack put together for a friend, mostly because it was easy
+and I wanted to hack around with chrome extensions before I started
+something really ambitious
+
+
+USAGE
+--------------------------------------------------------------------------------
+
+First, find the extensions portion of the settings page by either:
+ - Wrench -> Settings -> Extensions
+ - chrome://settings/extensions
+
+Then either:
+ - use the packaged extension (not done yet)
+ OR
+ - Load unpacked extension, and navigate to this directory
+
+Then when in a google docs presentation, there will be an icon in the
+url bar:
+ - clicking it will disappear the preview pane
+ - clicking it again will appear the preview pane
+
+This is suboptimal, because you have to resize the window or speaker
+notes to resize the slide itself. This isn't a likely TODO, because we
+can't hook into the google code from an extension.
+
+Tested with Chromium 18.0.1025.168
+
+
+LICENSE
+--------------------------------------------------------------------------------
+ "THE BEER-WARE LICENSE" (Revision 42):
+ <thenoviceoof@gmail.com> wrote this stuff. As long as you retain this
+ notice you can do whatever you want with this stuff. If we meet some
+ day, and you think this stuff is worth it, you can buy me a beer in
+ return.  - Nathan Hwang
